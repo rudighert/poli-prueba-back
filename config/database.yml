@@ -17,10 +17,10 @@ test: &test
 production:
   adapter: postgresql
   encoding: utf8mb4
-  database: db26i3nsrml1bj
-  username: houggtvrjeulrk
-  password: f0546b08972601bfd8dbe26dd59327192ad2189a01d0b6c8362a75a7107cf62b
-  host: ec2-18-213-176-229.compute-1.amazonaws.com
+  database: d3sk9kmipfn5f6
+  username: vwdbzxpfstbzgf
+  password: a93ec65bcd7366754e2d218336b2006717300297daeeef54d8f26140dc22226c
+  host: ec2-3-231-46-238.compute-1.amazonaws.com
   port: 5432
 
 cucumber:
