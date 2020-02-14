@@ -15,13 +15,13 @@ test: &test
   database: poli-prueba
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8mb4
-  database: <%= ENV['RDS_DB_NAME'] %>
-  username: <%= ENV['RDS_USERNAME'] %>
-  password: <%= ENV['RDS_PASSWORD'] %>
-  host: <%= ENV['RDS_HOSTNAME'] %>
-  port: <%= ENV['RDS_PORT'] %>
+  database: db26i3nsrml1bj
+  username: houggtvrjeulrk
+  password: f0546b08972601bfd8dbe26dd59327192ad2189a01d0b6c8362a75a7107cf62b
+  host: ec2-18-213-176-229.compute-1.amazonaws.com
+  port: 5432
 
 cucumber:
   <<: *test
