@@ -16,7 +16,7 @@ test: &test
 
 production:
   adapter: postgresql
-  encoding: utf8mb4
+  encoding: utf8
   database: d3sk9kmipfn5f6
   username: vwdbzxpfstbzgf
   password: a93ec65bcd7366754e2d218336b2006717300297daeeef54d8f26140dc22226c
