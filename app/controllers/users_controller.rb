@@ -7,15 +7,10 @@ class UsersController < ApplicationController
     if params[:id]
       user = User.find(params[:id])
       user.update(user_params)
-      ap "UPDATE"
     else
       user = User.new(user_params)
-      ap "NEW"
     end
 
-
-    ap user
-    ap user_params
     #user.location = Location.all.sample
     if user.save
       render json: UserSerializer.new(user).serialized_json, status: :ok
